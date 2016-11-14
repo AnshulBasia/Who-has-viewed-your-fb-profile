@@ -58,7 +58,7 @@ int main(){
     cout<<"Enter the number of friends you want to see the name of"<<endl;
     int n;
     cin>>n;
-    string s = "list:[";
+    string s = ",list:[";
     int t;
     string id;
     vector<string> v;
