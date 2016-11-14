@@ -53,7 +53,7 @@ bool KMP(string pattern, string target)
 }
 
 int main(){
-    ifstream file("rishi.html");
+    ifstream file("test.html");
     string text;
     cout<<"Enter the number of friends you want to see the name of"<<endl;
     int n;
