@@ -65,7 +65,7 @@ int main(){
     while(getline(file,text,'\n')){
         
         if(KMP(s,text)){
-            t = to_find + 7;
+            t = to_find + 8;
             while(v.size()<n){
                 id = "";
                 while(text[t]!='-'){
